@@ -3,8 +3,9 @@
 
 def key_for_min_value(name_hash)
 
-  if name_hash.sort_by.map {|key,value| key}.first
-    
+  if name_hash.sort_by.map do |key,value|
+      return key
+    end
   else
     nil
   end
