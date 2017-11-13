@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
 
   if name_hash.sort_by.map do |key,value|
     || name_hash.sort_by.collect do |key,value|
-      return key
-    end
+        return key
+      end
     end
   else
     nil
