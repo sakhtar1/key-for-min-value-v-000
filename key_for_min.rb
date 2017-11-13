@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-  name_hash.sort { |key, value| key }.first
+  h.sort.map do |key,value|
+  end
 
 end
